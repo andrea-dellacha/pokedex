@@ -1,0 +1,198 @@
+.loader {
+  --color__black: #181818;
+  --color__red-pokeball: #B71C1C;
+  --color__red-ash: #e31613;
+  --color__yellow: #FEFE00;
+  --color__pink: #FFEBEE;
+  --color__white: white;
+  --color__beige: #F0C3AA;
+  --color__gray: #9E9E9E;
+  --color__brown: #823E00;
+  --color__blue: #037efb;
+  --pikachu__moove: 40px 8px var(--color__black), 48px 8px var(--color__black), 8px 16px var(--color__black), 16px 16px var(--color__black), 24px 16px var(--color__black), 32px 16px var(--color__black), 40px 16px var(--color__black), 48px 16px var(--color__black), 56px 16px var(--color__black), 64px 16px var(--color__black), 72px 16px var(--color__black), 8px 24px var(--color__black), 16px 24px var(--color__yellow), 24px 24px var(--color__yellow), 32px 24px var(--color__yellow), 40px 24px var(--color__black), 48px 24px var(--color__black), 56px 24px var(--color__black), 64px 24px var(--color__yellow), 72px 24px var(--color__yellow), 80px 24px var(--color__black), 88px 24px var(--color__black), 96px 24px var(--color__black), 16px 32px var(--color__black), 24px 32px var(--color__yellow), 32px 32px var(--color__yellow), 40px 32px var(--color__yellow), 48px 32px var(--color__black), 56px 32px var(--color__yellow), 64px 32px var(--color__yellow), 72px 32px var(--color__yellow), 80px 32px var(--color__yellow), 88px 32px var(--color__yellow), 96px 32px var(--color__yellow), 104px 32px var(--color__black), 24px 40px var(--color__black), 32px 40px var(--color__yellow), 40px 40px var(--color__yellow), 48px 40px var(--color__black), 56px 40px var(--color__black), 64px 40px var(--color__yellow), 72px 40px var(--color__yellow), 80px 40px var(--color__yellow), 88px 40px var(--color__yellow), 96px 40px var(--color__yellow), 104px 40px var(--color__yellow), 112px 40px var(--color__black), 32px 48px var(--color__black), 40px 48px var(--color__yellow), 48px 48px var(--color__yellow), 56px 48px var(--color__black), 64px 48px var(--color__yellow), 72px 48px var(--color__yellow), 80px 48px var(--color__yellow), 88px 48px var(--color__yellow), 96px 48px var(--color__yellow), 104px 48px var(--color__yellow), 112px 48px var(--color__black), 16px 56px var(--color__black), 24px 56px var(--color__black), 32px 56px var(--color__black), 40px 56px var(--color__yellow), 48px 56px var(--color__black), 56px 56px var(--color__yellow), 64px 56px var(--color__yellow), 72px 56px var(--color__yellow), 80px 56px var(--color__yellow), 88px 56px var(--color__yellow), 96px 56px var(--color__black), 104px 56px var(--color__yellow), 112px 56px var(--color__yellow), 120px 56px var(--color__black), 16px 64px var(--color__black), 24px 64px var(--color__yellow), 32px 64px var(--color__yellow), 40px 64px var(--color__black), 48px 64px var(--color__black), 56px 64px var(--color__yellow), 64px 64px var(--color__yellow), 72px 64px var(--color__yellow), 80px 64px var(--color__red-ash), 88px 64px var(--color__yellow), 96px 64px var(--color__yellow), 104px 64px var(--color__yellow), 112px 64px var(--color__yellow), 120px 64px var(--color__black), 24px 72px var(--color__black), 32px 72px var(--color__brown), 40px 72px var(--color__black), 48px 72px var(--color__brown), 56px 72px var(--color__brown), 64px 72px var(--color__brown), 72px 72px var(--color__yellow), 80px 72px var(--color__yellow), 88px 72px var(--color__yellow), 96px 72px var(--color__yellow), 104px 72px var(--color__yellow), 112px 72px var(--color__black), 16px 80px var(--color__black), 24px 80px var(--color__brown), 32px 80px var(--color__brown), 40px 80px var(--color__black), 48px 80px var(--color__yellow), 56px 80px var(--color__yellow), 64px 80px var(--color__yellow), 72px 80px var(--color__yellow), 80px 80px var(--color__yellow), 88px 80px var(--color__yellow), 96px 80px var(--color__black), 104px 80px var(--color__yellow), 112px 80px var(--color__black), 24px 88px var(--color__black), 32px 88px var(--color__brown), 40px 88px var(--color__black), 48px 88px var(--color__brown), 56px 88px var(--color__brown), 64px 88px var(--color__brown), 72px 88px var(--color__yellow), 80px 88px var(--color__yellow), 88px 88px var(--color__black), 96px 88px var(--color__black), 104px 88px var(--color__yellow), 112px 88px var(--color__black), 32px 96px var(--color__black), 40px 96px var(--color__black), 48px 96px var(--color__black), 56px 96px var(--color__yellow), 64px 96px var(--color__yellow), 72px 96px var(--color__yellow), 80px 96px var(--color__yellow), 88px 96px var(--color__yellow), 96px 96px var(--color__yellow), 104px 96px var(--color__black), 112px 96px var(--color__black), 32px 104px var(--color__black), 40px 104px var(--color__yellow), 48px 104px var(--color__black), 56px 104px var(--color__black), 64px 104px var(--color__yellow), 72px 104px var(--color__yellow), 80px 104px var(--color__yellow), 88px 104px var(--color__yellow), 96px 104px var(--color__black), 104px 104px var(--color__yellow), 112px 104px var(--color__yellow), 120px 104px var(--color__black), 40px 112px var(--color__black), 48px 112px var(--color__yellow), 56px 112px var(--color__yellow), 64px 112px var(--color__black), 72px 112px var(--color__black), 80px 112px var(--color__black), 88px 112px var(--color__black), 104px 112px var(--color__black), 112px 112px var(--color__black), 48px 120px var(--color__black), 56px 120px var(--color__black);
+  --pikachu__static: 40px 16px var(--color__black), 48px 16px var(--color__black), 8px 24px var(--color__black), 16px 24px var(--color__black), 24px 24px var(--color__black), 32px 24px var(--color__black), 40px 24px var(--color__black), 48px 24px var(--color__black), 56px 24px var(--color__black), 64px 24px var(--color__black), 72px 24px var(--color__black), 8px 32px var(--color__black), 16px 32px var(--color__yellow), 24px 32px var(--color__yellow), 32px 32px var(--color__yellow), 40px 32px var(--color__black), 48px 32px var(--color__black), 56px 32px var(--color__black), 64px 32px var(--color__yellow), 72px 32px var(--color__yellow), 80px 32px var(--color__black), 88px 32px var(--color__black), 96px 32px var(--color__black), 16px 40px var(--color__black), 24px 40px var(--color__yellow), 32px 40px var(--color__yellow), 40px 40px var(--color__yellow), 48px 40px var(--color__black), 56px 40px var(--color__yellow), 64px 40px var(--color__yellow), 72px 40px var(--color__yellow), 80px 40px var(--color__yellow), 88px 40px var(--color__yellow), 96px 40px var(--color__yellow), 104px 40px var(--color__black), 24px 48px var(--color__black), 32px 48px var(--color__yellow), 40px 48px var(--color__yellow), 48px 48px var(--color__black), 56px 48px var(--color__black), 64px 48px var(--color__yellow), 72px 48px var(--color__yellow), 80px 48px var(--color__yellow), 88px 48px var(--color__yellow), 96px 48px var(--color__yellow), 104px 48px var(--color__yellow), 112px 48px var(--color__black), 32px 56px var(--color__black), 40px 56px var(--color__yellow), 48px 56px var(--color__yellow), 56px 56px var(--color__black), 64px 56px var(--color__yellow), 72px 56px var(--color__yellow), 80px 56px var(--color__yellow), 88px 56px var(--color__yellow), 96px 56px var(--color__yellow), 104px 56px var(--color__yellow), 112px 56px var(--color__black), 16px 64px var(--color__black), 24px 64px var(--color__black), 32px 64px var(--color__black), 40px 64px var(--color__yellow), 48px 64px var(--color__black), 56px 64px var(--color__yellow), 64px 64px var(--color__yellow), 72px 64px var(--color__yellow), 80px 64px var(--color__yellow), 88px 64px var(--color__yellow), 96px 64px var(--color__black), 104px 64px var(--color__yellow), 112px 64px var(--color__yellow), 120px 64px var(--color__black), 16px 72px var(--color__black), 24px 72px var(--color__yellow), 32px 72px var(--color__yellow), 40px 72px var(--color__yellow), 48px 72px var(--color__black), 56px 72px var(--color__yellow), 64px 72px var(--color__yellow), 72px 72px var(--color__yellow), 80px 72px var(--color__red-ash), 88px 72px var(--color__yellow), 96px 72px var(--color__yellow), 104px 72px var(--color__yellow), 112px 72px var(--color__yellow), 120px 72px var(--color__black), 24px 80px var(--color__black), 32px 80px var(--color__brown), 40px 80px var(--color__black), 48px 80px var(--color__brown), 56px 80px var(--color__brown), 64px 80px var(--color__brown), 72px 80px var(--color__yellow), 80px 80px var(--color__yellow), 88px 80px var(--color__yellow), 96px 80px var(--color__yellow), 104px 80px var(--color__yellow), 112px 80px var(--color__black), 16px 88px var(--color__black), 24px 88px var(--color__brown), 32px 88px var(--color__brown), 40px 88px var(--color__black), 48px 88px var(--color__yellow), 56px 88px var(--color__yellow), 64px 88px var(--color__yellow), 72px 88px var(--color__yellow), 80px 88px var(--color__yellow), 88px 88px var(--color__yellow), 96px 88px var(--color__black), 104px 88px var(--color__yellow), 112px 88px var(--color__black), 24px 96px var(--color__black), 32px 96px var(--color__brown), 40px 96px var(--color__black), 48px 96px var(--color__brown), 56px 96px var(--color__brown), 64px 96px var(--color__brown), 72px 96px var(--color__yellow), 80px 96px var(--color__yellow), 88px 96px var(--color__black), 96px 96px var(--color__black), 104px 96px var(--color__yellow), 112px 96px var(--color__black), 32px 104px var(--color__black), 40px 104px var(--color__black), 48px 104px var(--color__black), 56px 104px var(--color__yellow), 64px 104px var(--color__yellow), 72px 104px var(--color__yellow), 80px 104px var(--color__yellow), 88px 104px var(--color__yellow), 96px 104px var(--color__yellow), 104px 104px var(--color__yellow), 112px 104px var(--color__black), 56px 112px var(--color__black), 64px 112px var(--color__black), 72px 112px var(--color__yellow), 80px 112px var(--color__yellow), 88px 112px var(--color__yellow), 96px 112px var(--color__black), 104px 112px var(--color__black), 72px 120px var(--color__black), 80px 120px var(--color__black), 88px 120px var(--color__black);
+  --ash__moove: 32px 8px var(--color__black), 40px 8px var(--color__black), 48px 8px var(--color__black), 56px 8px var(--color__black), 64px 8px var(--color__black), 72px 8px var(--color__black), 24px 16px var(--color__black), 32px 16px var(--color__red-ash), 40px 16px var(--color__red-ash), 48px 16px var(--color__red-ash), 56px 16px var(--color__red-ash), 64px 16px var(--color__red-ash), 72px 16px var(--color__red-ash), 80px 16px var(--color__black), 16px 24px var(--color__black), 24px 24px var(--color__red-ash), 32px 24px var(--color__red-ash), 40px 24px var(--color__red-ash), 48px 24px var(--color__red-ash), 56px 24px var(--color__red-ash), 64px 24px var(--color__red-ash), 72px 24px var(--color__red-ash), 80px 24px var(--color__red-ash), 88px 24px var(--color__black), 16px 32px var(--color__black), 24px 32px var(--color__red-ash), 32px 32px var(--color__red-ash), 40px 32px var(--color__red-ash), 48px 32px var(--color__red-ash), 56px 32px var(--color__red-ash), 64px 32px var(--color__red-ash), 72px 32px var(--color__red-ash), 80px 32px var(--color__white), 88px 32px var(--color__black), 96px 32px var(--color__black), 8px 40px var(--color__black), 16px 40px var(--color__black), 24px 40px var(--color__black), 32px 40px var(--color__red-ash), 40px 40px var(--color__red-ash), 48px 40px var(--color__red-ash), 56px 40px var(--color__red-ash), 64px 40px var(--color__red-ash), 72px 40px var(--color__white), 80px 40px var(--color__white), 88px 40px var(--color__white), 96px 40px var(--color__white), 104px 40px var(--color__black), 8px 48px var(--color__black), 16px 48px var(--color__black), 24px 48px var(--color__black), 32px 48px var(--color__black), 40px 48px var(--color__black), 48px 48px var(--color__black), 56px 48px var(--color__black), 64px 48px var(--color__red-ash), 72px 48px var(--color__red-ash), 80px 48px var(--color__red-ash), 88px 48px var(--color__black), 96px 48px var(--color__black), 8px 56px var(--color__black), 16px 56px var(--color__black), 24px 56px var(--color__black), 32px 56px var(--color__black), 40px 56px var(--color__black), 48px 56px var(--color__black), 56px 56px var(--color__beige), 64px 56px var(--color__beige), 72px 56px var(--color__black), 80px 56px var(--color__beige), 88px 56px var(--color__black), 16px 64px var(--color__black), 24px 64px var(--color__black), 32px 64px var(--color__beige), 40px 64px var(--color__beige), 48px 64px var(--color__black), 56px 64px var(--color__beige), 64px 64px var(--color__beige), 72px 64px var(--color__black), 80px 64px var(--color__beige), 88px 64px var(--color__black), 24px 72px var(--color__black), 32px 72px var(--color__beige), 40px 72px var(--color__beige), 48px 72px var(--color__beige), 56px 72px var(--color__beige), 64px 72px var(--color__beige), 72px 72px var(--color__beige), 80px 72px var(--color__beige), 88px 72px var(--color__black), 16px 80px var(--color__black), 24px 80px var(--color__blue), 32px 80px var(--color__black), 40px 80px var(--color__black), 48px 80px var(--color__beige), 56px 80px var(--color__beige), 64px 80px var(--color__beige), 72px 80px var(--color__beige), 80px 80px var(--color__black), 16px 88px var(--color__black), 24px 88px var(--color__blue), 32px 88px var(--color__black), 40px 88px var(--color__black), 48px 88px var(--color__black), 56px 88px var(--color__black), 64px 88px var(--color__black), 72px 88px var(--color__black), 16px 96px var(--color__black), 24px 96px var(--color__black), 32px 96px var(--color__beige), 40px 96px var(--color__beige), 48px 96px var(--color__black), 56px 96px var(--color__black), 64px 96px var(--color__black), 72px 96px var(--color__black), 80px 96px var(--color__black), 88px 96px var(--color__black), 8px 104px var(--color__black), 16px 104px var(--color__white), 24px 104px var(--color__black), 32px 104px var(--color__beige), 40px 104px var(--color__beige), 48px 104px var(--color__black), 56px 104px var(--color__white), 64px 104px var(--color__white), 72px 104px var(--color__black), 80px 104px var(--color__white), 88px 104px var(--color__white), 96px 104px var(--color__black), 8px 112px var(--color__black), 16px 112px var(--color__white), 24px 112px var(--color__white), 32px 112px var(--color__black), 40px 112px var(--color__black), 48px 112px var(--color__black), 56px 112px var(--color__black), 64px 112px var(--color__black), 72px 112px var(--color__white), 80px 112px var(--color__white), 88px 112px var(--color__black), 16px 120px var(--color__black), 24px 120px var(--color__black), 64px 120px var(--color__black), 72px 120px var(--color__black), 80px 120px var(--color__black);
+  --ash__static: 32px 0 var(--color__black), 40px 0 var(--color__black), 48px 0 var(--color__black), 56px 0 var(--color__black), 64px 0 var(--color__black), 72px 0 var(--color__black), 24px 8px var(--color__black), 32px 8px var(--color__red-ash), 40px 8px var(--color__red-ash), 48px 8px var(--color__red-ash), 56px 8px var(--color__red-ash), 64px 8px var(--color__red-ash), 72px 8px var(--color__red-ash), 80px 8px var(--color__black), 16px 16px var(--color__black), 24px 16px var(--color__red-ash), 32px 16px var(--color__red-ash), 40px 16px var(--color__red-ash), 48px 16px var(--color__red-ash), 56px 16px var(--color__red-ash), 64px 16px var(--color__red-ash), 72px 16px var(--color__red-ash), 80px 16px var(--color__red-ash), 88px 16px var(--color__black), 16px 24px var(--color__black), 24px 24px var(--color__red-ash), 32px 24px var(--color__red-ash), 40px 24px var(--color__red-ash), 48px 24px var(--color__red-ash), 56px 24px var(--color__red-ash), 64px 24px var(--color__red-ash), 72px 24px var(--color__red-ash), 80px 24px var(--color__white), 88px 24px var(--color__black), 96px 24px var(--color__black), 8px 32px var(--color__black), 16px 32px var(--color__black), 24px 32px var(--color__black), 32px 32px var(--color__red-ash), 40px 32px var(--color__red-ash), 48px 32px var(--color__red-ash), 56px 32px var(--color__red-ash), 64px 32px var(--color__red-ash), 72px 32px var(--color__white), 80px 32px var(--color__white), 88px 32px var(--color__white), 96px 32px var(--color__white), 104px 32px var(--color__black), 8px 40px var(--color__black), 16px 40px var(--color__black), 24px 40px var(--color__black), 32px 40px var(--color__black), 40px 40px var(--color__black), 48px 40px var(--color__black), 56px 40px var(--color__black), 64px 40px var(--color__red-ash), 72px 40px var(--color__red-ash), 80px 40px var(--color__red-ash), 88px 40px var(--color__black), 96px 40px var(--color__black), 8px 48px var(--color__black), 16px 48px var(--color__black), 24px 48px var(--color__black), 32px 48px var(--color__black), 40px 48px var(--color__black), 48px 48px var(--color__black), 56px 48px var(--color__beige), 64px 48px var(--color__beige), 72px 48px var(--color__black), 80px 48px var(--color__beige), 88px 48px var(--color__black), 16px 56px var(--color__black), 24px 56px var(--color__black), 32px 56px var(--color__beige), 40px 56px var(--color__beige), 48px 56px var(--color__black), 56px 56px var(--color__beige), 64px 56px var(--color__beige), 72px 56px var(--color__black), 80px 56px var(--color__beige), 88px 56px var(--color__black), 24px 64px var(--color__black), 32px 64px var(--color__beige), 40px 64px var(--color__beige), 48px 64px var(--color__beige), 56px 64px var(--color__beige), 64px 64px var(--color__beige), 72px 64px var(--color__beige), 80px 64px var(--color__beige), 88px 64px var(--color__black), 16px 72px var(--color__black), 24px 72px var(--color__blue), 32px 72px var(--color__black), 40px 72px var(--color__black), 48px 72px var(--color__beige), 56px 72px var(--color__beige), 64px 72px var(--color__beige), 72px 72px var(--color__beige), 80px 72px var(--color__black), 16px 80px var(--color__black), 24px 80px var(--color__blue), 32px 80px var(--color__blue), 40px 80px var(--color__black), 48px 80px var(--color__black), 56px 80px var(--color__black), 64px 80px var(--color__black), 72px 80px var(--color__black), 16px 88px var(--color__black), 24px 88px var(--color__blue), 32px 88px var(--color__black), 40px 88px var(--color__beige), 48px 88px var(--color__beige), 56px 88px var(--color__black), 64px 88px var(--color__black), 16px 96px var(--color__black), 24px 96px var(--color__blue), 32px 96px var(--color__black), 40px 96px var(--color__beige), 48px 96px var(--color__beige), 56px 96px var(--color__black), 64px 96px var(--color__black), 24px 104px var(--color__black), 32px 104px var(--color__black), 40px 104px var(--color__black), 48px 104px var(--color__black), 56px 104px var(--color__white), 64px 104px var(--color__white), 72px 104px var(--color__black), 32px 112px var(--color__black), 40px 112px var(--color__white), 48px 112px var(--color__white), 56px 112px var(--color__white), 64px 112px var(--color__white), 72px 112px var(--color__black), 40px 120px var(--color__black), 48px 120px var(--color__black), 56px 120px var(--color__black), 64px 120px var(--color__black);
+  --pokeball__down: 24px 8px var(--color__black), 28px 8px var(--color__black), 32px 8px var(--color__black), 36px 8px var(--color__black), 16px 12px var(--color__black), 20px 12px var(--color__black), 24px 12px var(--color__red-pokeball), 28px 12px var(--color__red-pokeball), 32px 12px var(--color__red-pokeball), 36px 12px var(--color__red-pokeball), 40px 12px var(--color__black), 44px 12px var(--color__black), 12px 16px var(--color__black), 16px 16px var(--color__pink), 20px 16px var(--color__pink), 24px 16px var(--color__red-pokeball), 28px 16px var(--color__red-pokeball), 32px 16px var(--color__red-pokeball), 36px 16px var(--color__red-pokeball), 40px 16px var(--color__red-pokeball), 44px 16px var(--color__red-pokeball), 48px 16px var(--color__black), 8px 20px var(--color__black), 12px 20px var(--color__pink), 16px 20px var(--color__pink), 20px 20px var(--color__red-pokeball), 24px 20px var(--color__red-pokeball), 28px 20px var(--color__red-pokeball), 32px 20px var(--color__red-pokeball), 36px 20px var(--color__red-pokeball), 40px 20px var(--color__red-pokeball), 44px 20px var(--color__red-pokeball), 48px 20px var(--color__black), 52px 20px var(--color__black), 8px 24px var(--color__black), 12px 24px var(--color__pink), 16px 24px var(--color__red-pokeball), 20px 24px var(--color__red-pokeball), 24px 24px var(--color__red-pokeball), 28px 24px var(--color__red-pokeball), 32px 24px var(--color__red-pokeball), 36px 24px var(--color__red-pokeball), 40px 24px var(--color__red-pokeball), 44px 24px var(--color__red-pokeball), 48px 24px var(--color__red-pokeball), 52px 24px var(--color__black), 4px 28px var(--color__black), 8px 28px var(--color__pink), 12px 28px var(--color__red-pokeball), 16px 28px var(--color__red-pokeball), 20px 28px var(--color__red-pokeball), 24px 28px var(--color__red-pokeball), 28px 28px var(--color__red-pokeball), 32px 28px var(--color__red-pokeball), 36px 28px var(--color__red-pokeball), 40px 28px var(--color__red-pokeball), 44px 28px var(--color__red-pokeball), 48px 28px var(--color__red-pokeball), 52px 28px var(--color__red-pokeball), 56px 28px var(--color__black), 4px 32px var(--color__black), 8px 32px var(--color__black), 12px 32px var(--color__black), 16px 32px var(--color__red-pokeball), 20px 32px var(--color__red-pokeball), 24px 32px var(--color__red-pokeball), 28px 32px var(--color__red-pokeball), 32px 32px var(--color__black), 36px 32px var(--color__black), 40px 32px var(--color__black), 44px 32px var(--color__red-pokeball), 48px 32px var(--color__red-pokeball), 52px 32px var(--color__red-pokeball), 56px 32px var(--color__black), 4px 36px var(--color__black), 8px 36px var(--color__black), 12px 36px var(--color__black), 16px 36px var(--color__black), 20px 36px var(--color__red-pokeball), 24px 36px var(--color__red-pokeball), 28px 36px var(--color__black), 44px 36px var(--color__black), 48px 36px var(--color__red-pokeball), 52px 36px var(--color__red-pokeball), 56px 36px var(--color__black), 4px 40px var(--color__black), 8px 40px var(--color__gray), 16px 40px var(--color__black), 20px 40px var(--color__black), 24px 40px var(--color__black), 28px 40px var(--color__black), 44px 40px var(--color__black), 48px 40px var(--color__black), 52px 40px var(--color__black), 56px 40px var(--color__black), 8px 44px var(--color__black), 24px 44px var(--color__black), 28px 44px var(--color__black), 44px 44px var(--color__black), 52px 44px var(--color__black), 8px 48px var(--color__black), 32px 48px var(--color__black), 36px 48px var(--color__black), 40px 48px var(--color__black), 52px 48px var(--color__black), 12px 52px var(--color__black), 16px 52px var(--color__gray), 20px 52px var(--color__gray), 48px 52px var(--color__black), 16px 56px var(--color__black), 20px 56px var(--color__black), 24px 56px var(--color__gray), 28px 56px var(--color__gray), 32px 56px var(--color__gray), 36px 56px var(--color__gray), 40px 56px var(--color__black), 44px 56px var(--color__black), 24px 60px var(--color__black), 28px 60px var(--color__black), 32px 60px var(--color__black), 36px 60px var(--color__black);
+  --pokeball__up: 24px 4px var(--color__black), 28px 4px var(--color__black), 32px 4px var(--color__black), 36px 4px var(--color__black), 16px 8px var(--color__black), 20px 8px var(--color__black), 24px 8px var(--color__red-pokeball), 28px 8px var(--color__red-pokeball), 32px 8px var(--color__red-pokeball), 36px 8px var(--color__red-pokeball), 40px 8px var(--color__black), 44px 8px var(--color__black), 12px 12px var(--color__black), 16px 12px var(--color__pink), 20px 12px var(--color__pink), 24px 12px var(--color__red-pokeball), 28px 12px var(--color__red-pokeball), 32px 12px var(--color__red-pokeball), 36px 12px var(--color__red-pokeball), 40px 12px var(--color__red-pokeball), 44px 12px var(--color__red-pokeball), 48px 12px var(--color__black), 8px 16px var(--color__black), 12px 16px var(--color__pink), 16px 16px var(--color__pink), 20px 16px var(--color__red-pokeball), 24px 16px var(--color__red-pokeball), 28px 16px var(--color__red-pokeball), 32px 16px var(--color__red-pokeball), 36px 16px var(--color__red-pokeball), 40px 16px var(--color__red-pokeball), 44px 16px var(--color__red-pokeball), 48px 16px var(--color__black), 52px 16px var(--color__black), 8px 20px var(--color__black), 12px 20px var(--color__pink), 16px 20px var(--color__red-pokeball), 20px 20px var(--color__red-pokeball), 24px 20px var(--color__red-pokeball), 28px 20px var(--color__red-pokeball), 32px 20px var(--color__red-pokeball), 36px 20px var(--color__red-pokeball), 40px 20px var(--color__red-pokeball), 44px 20px var(--color__red-pokeball), 48px 20px var(--color__red-pokeball), 52px 20px var(--color__black), 4px 24px var(--color__black), 8px 24px var(--color__pink), 12px 24px var(--color__red-pokeball), 16px 24px var(--color__red-pokeball), 20px 24px var(--color__red-pokeball), 24px 24px var(--color__red-pokeball), 28px 24px var(--color__red-pokeball), 32px 24px var(--color__red-pokeball), 36px 24px var(--color__red-pokeball), 40px 24px var(--color__red-pokeball), 44px 24px var(--color__red-pokeball), 48px 24px var(--color__red-pokeball), 52px 24px var(--color__red-pokeball), 56px 24px var(--color__black), 4px 28px var(--color__black), 8px 28px var(--color__black), 12px 28px var(--color__black), 16px 28px var(--color__red-pokeball), 20px 28px var(--color__red-pokeball), 24px 28px var(--color__red-pokeball), 28px 28px var(--color__red-pokeball), 32px 28px var(--color__black), 36px 28px var(--color__black), 40px 28px var(--color__black), 44px 28px var(--color__red-pokeball), 48px 28px var(--color__red-pokeball), 52px 28px var(--color__red-pokeball), 56px 28px var(--color__black), 4px 32px var(--color__black), 8px 32px var(--color__black), 12px 32px var(--color__black), 16px 32px var(--color__black), 20px 32px var(--color__red-pokeball), 24px 32px var(--color__red-pokeball), 28px 32px var(--color__black), 44px 32px var(--color__black), 48px 32px var(--color__red-pokeball), 52px 32px var(--color__red-pokeball), 56px 32px var(--color__black), 4px 36px var(--color__black), 8px 36px var(--color__gray), 16px 36px var(--color__black), 20px 36px var(--color__black), 24px 36px var(--color__black), 28px 36px var(--color__black), 44px 36px var(--color__black), 48px 36px var(--color__black), 52px 36px var(--color__black), 56px 36px var(--color__black), 8px 40px var(--color__black), 24px 40px var(--color__black), 28px 40px var(--color__black), 44px 40px var(--color__black), 52px 40px var(--color__black), 8px 44px var(--color__black), 32px 44px var(--color__black), 36px 44px var(--color__black), 40px 44px var(--color__black), 52px 44px var(--color__black), 12px 48px var(--color__black), 16px 48px var(--color__gray), 20px 48px var(--color__gray), 48px 48px var(--color__black), 16px 52px var(--color__black), 20px 52px var(--color__black), 24px 52px var(--color__gray), 28px 52px var(--color__gray), 32px 52px var(--color__gray), 36px 52px var(--color__gray), 40px 52px var(--color__black), 44px 52px var(--color__black), 24px 56px var(--color__black), 28px 56px var(--color__black), 32px 56px var(--color__black), 36px 56px var(--color__black);
+  --chen__static: 48px 8px var(--color__black), 56px 8px var(--color__black), 64px 8px var(--color__black), 72px 8px var(--color__black), 80px 8px var(--color__black), 88px 8px var(--color__black), 24px 16px var(--color__black), 32px 16px var(--color__black), 40px 16px var(--color__black), 48px 16px var(--color__white), 56px 16px var(--color__white), 64px 16px var(--color__white), 72px 16px var(--color__white), 80px 16px var(--color__white), 88px 16px var(--color__white), 96px 16px var(--color__black), 32px 24px var(--color__black), 40px 24px var(--color__white), 48px 24px var(--color__black), 56px 24px var(--color__black), 64px 24px var(--color__white), 72px 24px var(--color__black), 80px 24px var(--color__black), 88px 24px var(--color__black), 96px 24px var(--color__white), 104px 24px var(--color__black), 32px 32px var(--color__black), 40px 32px var(--color__black), 48px 32px var(--color__beige), 56px 32px var(--color__beige), 64px 32px var(--color__black), 72px 32px var(--color__beige), 80px 32px var(--color__beige), 88px 32px var(--color__beige), 96px 32px var(--color__black), 104px 32px var(--color__black), 24px 40px var(--color__black), 32px 40px var(--color__black), 40px 40px var(--color__beige), 48px 40px var(--color__beige), 56px 40px var(--color__beige), 64px 40px var(--color__beige), 72px 40px var(--color__beige), 80px 40px var(--color__beige), 88px 40px var(--color__beige), 96px 40px var(--color__beige), 104px 40px var(--color__black), 112px 40px var(--color__black), 16px 48px var(--color__black), 24px 48px var(--color__beige), 32px 48px var(--color__black), 40px 48px var(--color__beige), 48px 48px var(--color__beige), 56px 48px var(--color__beige), 64px 48px var(--color__beige), 72px 48px var(--color__beige), 80px 48px var(--color__beige), 88px 48px var(--color__beige), 96px 48px var(--color__beige), 104px 48px var(--color__black), 112px 48px var(--color__beige), 120px 48px var(--color__black), 16px 56px var(--color__black), 24px 56px var(--color__beige), 32px 56px var(--color__beige), 40px 56px var(--color__beige), 48px 56px var(--color__beige), 56px 56px var(--color__black), 64px 56px var(--color__beige), 72px 56px var(--color__beige), 80px 56px var(--color__black), 88px 56px var(--color__beige), 96px 56px var(--color__beige), 104px 56px var(--color__beige), 112px 56px var(--color__beige), 120px 56px var(--color__black), 16px 64px var(--color__black), 24px 64px var(--color__beige), 32px 64px var(--color__beige), 40px 64px var(--color__beige), 48px 64px var(--color__beige), 56px 64px var(--color__black), 64px 64px var(--color__beige), 72px 64px var(--color__beige), 80px 64px var(--color__black), 88px 64px var(--color__beige), 96px 64px var(--color__beige), 104px 64px var(--color__beige), 112px 64px var(--color__beige), 120px 64px var(--color__black), 24px 72px var(--color__black), 32px 72px var(--color__black), 40px 72px var(--color__beige), 48px 72px var(--color__beige), 56px 72px var(--color__beige), 64px 72px var(--color__beige), 72px 72px var(--color__beige), 80px 72px var(--color__beige), 88px 72px var(--color__beige), 96px 72px var(--color__beige), 104px 72px var(--color__black), 112px 72px var(--color__black), 16px 80px var(--color__black), 24px 80px var(--color__black), 40px 80px var(--color__black), 48px 80px var(--color__beige), 56px 80px var(--color__beige), 64px 80px var(--color__beige), 72px 80px var(--color__beige), 80px 80px var(--color__beige), 88px 80px var(--color__beige), 96px 80px var(--color__black), 120px 80px var(--color__black), 128px 80px var(--color__black), 8px 88px var(--color__black), 16px 88px var(--color__beige), 24px 88px var(--color__beige), 32px 88px var(--color__black), 48px 88px var(--color__black), 56px 88px var(--color__black), 64px 88px var(--color__black), 72px 88px var(--color__black), 80px 88px var(--color__black), 88px 88px var(--color__black), 104px 88px var(--color__black), 112px 88px var(--color__beige), 120px 88px var(--color__beige), 128px 88px var(--color__black), 8px 96px var(--color__black), 16px 96px var(--color__beige), 24px 96px var(--color__beige), 32px 96px var(--color__black), 56px 96px var(--color__black), 64px 96px var(--color__black), 72px 96px var(--color__black), 80px 96px var(--color__black), 104px 96px var(--color__black), 112px 96px var(--color__beige), 120px 96px var(--color__beige), 128px 96px var(--color__black), 16px 104px var(--color__black), 24px 104px var(--color__black), 32px 104px var(--color__black), 40px 104px var(--color__white), 56px 104px var(--color__black), 64px 104px var(--color__red-ash), 72px 104px var(--color__red-ash), 80px 104px var(--color__black), 88px 104px var(--color__white), 104px 104px var(--color__black), 112px 104px var(--color__black), 120px 104px var(--color__black), 24px 112px var(--color__black), 56px 112px var(--color__black), 64px 112px var(--color__black), 72px 112px var(--color__black), 80px 112px var(--color__black), 112px 112px var(--color__black), 32px 120px var(--color__black), 40px 120px var(--color__black), 48px 120px var(--color__black), 56px 120px var(--color__black), 64px 120px var(--color__black), 72px 120px var(--color__black), 80px 120px var(--color__black), 88px 120px var(--color__black), 96px 120px var(--color__black), 104px 120px var(--color__black), 24px 128px var(--color__black), 32px 128px var(--color__black), 40px 128px var(--color__black), 48px 128px var(--color__black), 88px 128px var(--color__black), 96px 128px var(--color__black), 104px 128px var(--color__black), 112px 128px var(--color__black);
+}
+
+
+/****************************************
+                  ASH
+****************************************/
+.loader__ash {
+  width: 104px;
+  height: 128px;
+  position: relative;
+}
+.loader__ash::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: block;
+}
+.loader__ash::after {
+  -webkit-animation: ash-frames 0.4s steps(1) infinite;
+          animation: ash-frames 0.4s steps(1) infinite;
+}
+.loader.-end .loader__ash::after {
+  -webkit-animation: none;
+          animation: none;
+  box-shadow: var(--ash__static);
+}
+@-webkit-keyframes ash-frames {
+  0% {
+    box-shadow: var(--ash__moove);
+  }
+  50% {
+    box-shadow: var(--ash__static);
+  }
+}
+@keyframes ash-frames {
+  0% {
+    box-shadow: var(--ash__moove);
+  }
+  50% {
+    box-shadow: var(--ash__static);
+  }
+}
+
+/****************************************
+                  PIKACHU
+****************************************/
+.loader__pikachu {
+  width: 120px;
+  height: 128px;
+  position: relative;
+  scale: 0.87;
+  transform-origin: bottom right;
+  margin-left: -10px !important;
+}
+.loader__pikachu::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: block;
+}
+.loader__pikachu::after {
+  -webkit-animation: pikachu-frames 0.2s steps(1) infinite;
+          animation: pikachu-frames 0.2s steps(1) infinite;
+}
+.loader.-end .loader__pikachu::after {
+  -webkit-animation: none;
+          animation: none;
+  box-shadow: var(--pikachu__static);
+}
+@-webkit-keyframes pikachu-frames {
+  0% {
+    box-shadow: var(--pikachu__moove);
+  }
+  50% {
+    box-shadow: var(--pikachu__static);
+  }
+}
+@keyframes pikachu-frames {
+  0% {
+    box-shadow: var(--pikachu__moove);
+  }
+  50% {
+    box-shadow: var(--pikachu__static);
+  }
+}
+
+/****************************************
+                  POKEBALL
+****************************************/
+.loader__pokeball {
+  width: 60px;
+  height: 64px;
+  position: relative;
+}
+.loader__pokeball::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  display: block;
+}
+.loader__pokeball::after {
+  -webkit-animation: pokeball-frames 0.2s steps(1) infinite;
+          animation: pokeball-frames 0.2s steps(1) infinite;
+}
+
+.loader.-end .loader__pokeball::after {
+  -webkit-animation: none;
+          animation: none;
+}
+
+@-webkit-keyframes pokeball-frames {
+  0% {
+    box-shadow: var(--pokeball__down)
+  }
+  50% {
+    box-shadow: var(--pokeball__up)
+  }
+}
+@keyframes pokeball-frames {
+  0% {
+    box-shadow: var(--pokeball__down)
+  }
+  50% {
+    box-shadow: var(--pokeball__up)
+  }
+}
+
+/****************************************
+                  CHEN
+****************************************/
+.loader__chen {
+  width: 128px;
+  height: 128px;
+  position: relative;
+}
+.loader__chen::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: block;
+}
+.loader__chen::after {
+  box-shadow: none;
+}
+.loader.-end .loader__chen::after {
+  box-shadow: var(--chen__static);
+}
+
+/****************************************
+                  GENERAL
+****************************************/
+.loader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.loader__ash, .loader__pikachu {
+  margin: 0 16px;
+}
+
+.loader__pokeball {
+  transform-origin: bottom right;
+}
+
+.loader__pokeball.-duck1 {
+  scale: 0.5;
+  margin-right: -12px;
+}
+
+.loader__pokeball.-duck2 {
+  scale: 0.75;
+}
+
+/* Media queries*/
+@media screen and (max-width: 600px) {
+  .loader {
+    scale: 0.5;
+  }
+}

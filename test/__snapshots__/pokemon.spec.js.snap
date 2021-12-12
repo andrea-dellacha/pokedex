@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonPage renders correctly 1`] = `
+<div
+  class="pokemon__section"
+>
+  <div
+    class="loader"
+  >
+    <div
+      class="loader__pokeball -duck1"
+    />
+     
+    <div
+      class="loader__pokeball -duck2"
+    />
+     
+    <div
+      class="loader__pokeball"
+    />
+     
+    <div
+      class="loader__pikachu"
+    />
+     
+    <div
+      class="loader__ash"
+    />
+  </div>
+</div>
+`;

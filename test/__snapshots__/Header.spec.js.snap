@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div
+  class="o-header"
+>
+  <div
+    class="m-header"
+  >
+    <a>
+      <pokeball-stub />
+    </a>
+  </div>
+   
+  <div
+    class="m-header -title"
+  >
+    
+    Pokédex
+  
+  </div>
+   
+  <div
+    class="m-header -team"
+  >
+    <div
+      class="team__section"
+    >
+      <div>
+        
+        Team
+      
+      </div>
+       
+      <div
+        class="team__quantity"
+      >
+        
+        5
+      
+      </div>
+    </div>
+  </div>
+   
+  <teaminfos-stub
+    style="display: none;"
+  />
+</div>
+`;

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamPokemonCard renders correctly 1`] = `
+<div
+  class="cardPokemon"
+>
+  <div
+    class="card__image"
+  >
+    <img
+      alt="charmander"
+      id="pokemon#5"
+      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg"
+    />
+  </div>
+   
+  <div
+    class="card__title"
+  >
+    <div
+      class="card__name"
+    >
+      Charmander
+    </div>
+     
+    <div
+      class="card__id"
+    >
+      
+      #005
+      
+      <div
+        class="card__hp"
+      >
+        <div
+          class="cardHP__bar"
+        />
+         
+        <div
+          class="cardHP__text"
+        >
+          undefined / undefined
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="card__delete"
+  >
+    <trashicon-stub />
+  </div>
+</div>
+`;

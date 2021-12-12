@@ -1,0 +1,84 @@
+:root {
+  --bg-color: #edf0f8;
+  --bg-light-color: #fcfcfd;
+  --red-pokeball: #EE1515;
+  --black-pokeball: #222224;
+  --absolute-modal-bg: #4e50533d;
+  --green-color: #32CD32;
+  --font-size: 16px;
+  --font-size-xl: 36px;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: Roboto;
+}
+
+.main__section {
+  padding: 5vh 5vw;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/***** List *****/
+.list {
+  list-style: disclosure-closed;
+}
+
+.list li {
+  margin-left: 35px;
+}
+
+/***** INPUTS *****/
+input[type="search"] {
+  width: 300px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  padding: 2px 5px;
+}
+
+input[type='search']::placeholder {
+  color: #7a7c7f;
+  font-size: 12px;
+}
+
+
+/***** BUTTONS *****/
+.btn {
+  display: flex;
+  font-weight: bold;
+  color: var(--bg-light-color);
+  border: 1px solid var(--green-color);
+  background-color: var(--green-color);
+  border-radius: 5px;
+  box-sizing: border-box !important;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  width: max-content;
+  height: 35px;
+	-webkit-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+
+.btn:focus-visible {
+  transform: scale(1.2);
+  outline: none;
+}
+
+.btn:hover, .btn:focus-visible {
+  color: var(--green-color) !important;
+  background-color: var(--bg-light-color);
+  opacity: 1;
+}
+
+/* Media queries*/
+@media screen and (max-width: 600px) {
+  :root {
+    --font-size: 12px;
+    --font-size-xl: 28px;
+  }
+}

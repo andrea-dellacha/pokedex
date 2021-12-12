@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage renders correctly 1`] = `
+<div
+  class="homePage"
+>
+  <input
+    placeholder="Search by pokemon name (only loaded pokemons)"
+    type="search"
+  />
+   
+  <div
+    class="pokedex"
+  />
+   
+  <div
+    class="loader"
+  >
+    <div
+      class="loader__pokeball -duck1"
+    />
+     
+    <div
+      class="loader__pokeball -duck2"
+    />
+     
+    <div
+      class="loader__pokeball"
+    />
+     
+    <div
+      class="loader__pikachu"
+    />
+     
+    <div
+      class="loader__ash"
+    />
+     
+    <div
+      class="loader__chen"
+      style="display: none;"
+    />
+  </div>
+   
+  <div
+    class="pagination__msg"
+  >
+    <div
+      class="loadMore"
+    >
+      <loadmoreicon-stub />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorModal renders correctly 1`] = `
+<div>
+  <div
+    class="p-disableBg"
+  >
+    <div
+      class="c-modal -border_lvl1"
+    >
+      <div
+        class="m-title -color_lvl1"
+      >
+        <exclamationmarkround-stub
+          class="a-title__icon"
+          color="#DF0000"
+        />
+        
+        
+      
+      </div>
+       
+      <div
+        class="m-msg"
+      >
+        
+        
+      
+      </div>
+       
+      <div
+        class="m-actions"
+      >
+        <button
+          class="btn -dark -noRightMargin"
+        >
+          
+          OK
+        
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
